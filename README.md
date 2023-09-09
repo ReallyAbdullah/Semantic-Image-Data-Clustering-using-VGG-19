@@ -17,9 +17,10 @@ Image clustering is a technique that allows us to group similar images together 
 
 In this notebook, we will:
 
-1. Use the VGG-19 model pre-trained on ImageNet to extract feature vectors from a dataset of images.
-2. Apply a clustering algorithm (e.g., K-means) to cluster the feature vectors.
-3. Visualize the results to understand the image clusters.
+1. Flatten the Image and apply PCA to reduce the dimentionality of the image vector.
+2. Use the VGG-19 model pre-trained on ImageNet to extract feature vectors from a dataset of image vectors.
+3. Apply a clustering algorithm K-means to cluster the feature vectors.
+4. Visualize the results to understand the image clusters.
 
 ## Requirements
 
@@ -35,3 +36,9 @@ You can install these dependencies using `pip`:
 ```bash
 pip install numpy tensorflow scikit-learn matplotlib
 ```
+
+## Results
+
+Visualising the clutered images allows you to understand multiple aspects of you dataset. For instance the type of classes the images fall into visually.
+
+![Insects](images/cluster2.png)
