@@ -7,13 +7,13 @@ This Python notebook demonstrates how to use the VGG-19 model for unsupervised i
 - [Introduction](#introduction)
 - [Requirements](#requirements)
 - [Installation](#installation)
-- [Usage](#usage)
 - [Results](#results)
-- [License](#license)
 
 ## Introduction
 
 Image clustering is a technique that allows us to group similar images together based on their content. This can be useful for various applications, such as organizing large image datasets, discovering patterns in data, or even for recommendation systems.
+
+The dataset used here is the IP102 Pest Image dataset which can be found at https://github.com/xpwu95/IP102.
 
 In this notebook, we will:
 
