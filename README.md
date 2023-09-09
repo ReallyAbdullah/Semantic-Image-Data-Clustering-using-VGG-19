@@ -41,4 +41,10 @@ pip install numpy tensorflow scikit-learn matplotlib
 
 Visualising the clutered images allows you to understand multiple aspects of you dataset. For instance the type of classes the images fall into visually.
 
-![Insects](images/cluster2.png)
+For example:
+
+Cluster 3: images that contain insect resembing creatures:
+![Insects](images/cluster3.png)
+
+Cluster 5: images mostly with grass
+![Grass](images/cluster5.png)
