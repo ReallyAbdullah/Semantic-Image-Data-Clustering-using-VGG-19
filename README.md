@@ -48,3 +48,13 @@ Cluster 3: images that contain insect resembing creatures:
 
 Cluster 5: images mostly with grass
 ![Grass](images/cluster5.png)
+
+Another interesting application of this clustering is being able to group noise, garbage or outliers in the data smartly.
+
+Below are examples of clusters that have images that are not usable or irrelevant to the actual dataset.
+
+Cluster 2: images with mostly a person's hand or unsusable FOV.
+![Hands](images/cluster2.png)
+
+Cluster 4: images with drawings, diagrams or graphs.
+![Diagrams](images/cluster4.png)
