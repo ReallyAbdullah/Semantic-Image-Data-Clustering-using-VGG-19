@@ -58,3 +58,11 @@ Cluster 2: images with mostly a person's hand or unsusable FOV.
 
 Cluster 4: images with drawings, diagrams or graphs.
 ![Diagrams](images/cluster4.png)
+
+Finally, another observation in the clusters was made, that many times in order to increase the size of the image dataset, data augmentation is applied but not always in the best way which can result in duplicates and almost similar images which ruin the training and accuracy of an ML model. Examples are shown below:
+
+Cluster 6: very similar or duplicate images.
+![Duplicates](images/cluster6.png)
+
+Cluster 7: very similar or duplicate images.
+![Duplicates](images/cluster7.png)
